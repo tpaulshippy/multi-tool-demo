@@ -61,3 +61,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "ruby_llm", "~> 1.3"
+
+gem "dotenv", "~> 3.1"
+
+gem "dotenv-rails", "~> 3.1"

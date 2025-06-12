@@ -69,3 +69,5 @@ gem "dotenv", "~> 3.1"
 gem "dotenv-rails", "~> 3.1"
 
 gem "pg", "~> 1.5"
+
+gem "aws-sdk-core", "~> 3.160"

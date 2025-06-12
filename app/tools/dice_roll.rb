@@ -3,6 +3,8 @@ class DiceRoll < RubyLLM::Tool
 
   def execute
     roll = rand(1..6)
+    
+    puts "#{Time.now.to_i}: Rolled a #{roll}"
 
     {
       roll: roll
